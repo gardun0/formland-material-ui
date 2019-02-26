@@ -1,0 +1,9 @@
+language: node_js
+deploy:
+  provider: npm
+  email: damnyorch@gmail.com
+  api_key:
+    secure: HhK3AA+rJH38idZYajP237BvxhbqBiwgafv8xgjigoP6WRkLX4s/ef/FQqDW+XRyfSsbLbvz0g26Yx9L/HjKuNKIFYavnBusKxJdHYG/kAn7cruX7zBVBHvv+p2CkMBtkuFp9gGapd0CvQuuUGyuYcOUEXKytgiAChFoe/IEi+Z5mw0utPs5c5zO1nkM+LOB3v7yufJ3mnPtqcMLSnhHN6688BC4cH+YynwK34hTKrtIwfWqPNCY0rqxxo4DYLfwt9U+DVKUVnR2/JT2UZSgdeXoGuN9OX0QSrjXvlksj8a4EQFrzKya6nqdYTVc/pYHd5a0nPl3YhwPnfNZZF8UGWYgcMuRFkFAUJw6VXf30Y9UtSGGz4aDWgvz+grxIMVN+gHKzzzrtC5x8FUQuAbYlXeEmk86+rRRIEpr2DsA/UvXYBTAUZ66M+FsdqAT6ZQn9dFqu4f4Zw8MrRfiz9FXW+Bw+sYd7qDgjO7OHS1Tl4Hbn0h1nWSz01yMOisohOhky0H1bQq6kZf4j6fTd6f2A966yQVuLtS6QRA9+S5pJ2aJIXo1rP7p7R+n9zP5s72Uoh1hcB40QC/7MUfOLl0q8V7plyK9FMswpVRL5T2kiEb2hQyvLQi7aCiQaQtgAGkgBOQgbR1D/tjxXzwlaCWqvMm6wxtcMDnLQeQx9GgQFPU=
+  on:
+    tags: true
+    repo: notapineapple/formland-material-ui
