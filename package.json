@@ -1,6 +1,6 @@
 {
   "name": "formland-material-ui",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Formland components with Material UI",
   "main": "dist/index.js",
   "repository": "https://github.com/notapineapple/formland-material-ui.git",
