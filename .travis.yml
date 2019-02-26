@@ -1,6 +1,8 @@
 language: node_js
 node_js:
   - "11.10.0"
+before_deploy:
+  - "npm install -g @swc/cli @swc/core"
 deploy:
   provider: npm
   email: damnyorch@gmail.com
