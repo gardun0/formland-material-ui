@@ -15,9 +15,7 @@
     "formland": "^1.0.1",
     "react": "^16.8.3"
   },
-  "dependencies": {
-    "ramda": "^0.26.1"
-  },
+  "dependencies": {},
   "devDependencies": {
     "@material-ui/core": "^3.9.2",
     "@swc/cli": "^0.1.14",
