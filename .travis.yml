@@ -3,7 +3,8 @@ cache: npm
 node_js:
   - "11.10.0"
 before_deploy:
-  - "npm install -g @swc/cli @swc/core"
+  - "npm install -g @swc/cli @swc/core jsdoc-to-markdown"
+  - "npm run generateDocs"
 deploy:
   provider: npm
   email: damnyorch@gmail.com

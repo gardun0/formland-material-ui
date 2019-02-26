@@ -8,7 +8,8 @@
   "license": "GPL-3.0",
   "private": false,
   "scripts": {
-    "prepublish": "npx swc ./src -d ./dist"
+    "prepublish": "npx swc ./src -d ./dist",
+    "generateDocs": "npx jsdoc2md --template README.hbs --files src/** > README.md"
   },
   "peerDependencies": {
     "@material-ui/core": "^3.9.2",
@@ -19,6 +20,7 @@
     "@material-ui/core": "^3.9.2",
     "@swc/cli": "^0.1.14",
     "@swc/core": "^1.0.27",
+    "jsdoc-to-markdown": "^4.0.1",
     "react": "^16.8.3",
     "react-dom": "^16.8.3"
   }
