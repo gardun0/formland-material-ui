@@ -1,5 +1,4 @@
 import resolvers from './resolvers'
-import { compose, prop } from 'ramda'
 
 const getField = type => {
   const existence = resolvers[type]
@@ -9,6 +8,6 @@ const getField = type => {
   return existence || resolvers['material-text']
 }
 
-export const componentResolver = compose(prop('component'), getField)
+export const componentResolver = type => getField(type).component
 
 export const valueResolver = (config, value) => getField(config.type).value(config, value)
