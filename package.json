@@ -1,6 +1,6 @@
 {
   "name": "formland-material-ui",
-  "version": "0.2.3",
+  "version": "0.3.2",
   "description": "Formland components with Material UI",
   "main": "dist/index.js",
   "repository": "https://github.com/notapineapple/formland-material-ui.git",
@@ -10,7 +10,7 @@
   "scripts": {
     "prepublish": "npx swc ./src -d ./dist",
     "preversion": "npm run generateDocs",
-    "generateDocs": "npx jsdoc2md --template README.hbs --files src/** > README.md"
+    "generateDocs": "documentation readme src/** -s \"Formland Material\" --github --config docs/documentation.yml"
   },
   "peerDependencies": {
     "@material-ui/core": "^3.9.2",
@@ -21,7 +21,7 @@
     "@material-ui/core": "^3.9.2",
     "@swc/cli": "^0.1.14",
     "@swc/core": "^1.0.27",
-    "jsdoc-to-markdown": "^4.0.1",
+    "documentation": "^9.2.1",
     "react": "^16.8.3",
     "react-dom": "^16.8.3"
   }
